@@ -1,0 +1,3 @@
+[submodule "open_src/zlog"]
+	path = open_src/zlog
+	url = https://github.com/HardySimpson/zlog.git
