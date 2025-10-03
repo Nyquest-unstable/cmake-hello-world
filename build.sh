@@ -66,6 +66,9 @@ function build_module() {
 }
 
 case "$1" in
+    update)
+        git submodule update --init --recursive
+        ;;
 	help|--help|-h)
 		show_help
 		;;
